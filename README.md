@@ -8,14 +8,14 @@ This is a simple API for managing books and users. It allows users to perform CR
 - `POST /books`: Add a new book (requires `title`, `author`, and `summary` in the request body).
 - `GET /books`: Get a list of all books.
 - `GET /books/:id`: Get details of a specific book by its ID.
-- `PUT /books/:id`: Update a book's details (requires `title`, `author`, and `summary` in the request body).
+- `PATCH /books/:id`: Update a book's details (requires `title`, `author`, and `summary` in the request body).
 - `DELETE /books/:id`: Delete a book by its ID.
 
 ### Users
 - `POST /users`: Add a new user (requires `name`, `email`, and `password` in the request body).
 - `GET /users`: Get a list of all users.
 - `GET /users/:id`: Get details of a specific user by its ID.
-- `PUT /users/:id`: Update a user's details (requires `name`, `email`, and `password` in the request body).
+- `PATCH /users/:id`: Update a user's details (requires `name`, `email`, and `password` in the request body).
 - `DELETE /users/:id`: Delete a user by its ID.
 
 ## Set Up and Run Locally
